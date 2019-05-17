@@ -33,7 +33,7 @@ The aim of this first exercise is to explore the available entities.
     - For **Windows** we recommend to use [Postman](https://www.getpostman.com/):
         - Create a POST-request to `http://localhost:8080/FROST-Server/v1.0/Things`
         - Set the `Content-Type`-header to `application/json`
-        - Use the contet of `demoEntities.json` file as body for the request
+        - Use the contet of `demoEntities1.json` file as body for the request
 3) Explore the newly created data and the relations, e.g. starting with `http://localhost:8080/FROST-Server/v1.0/Things` and follow the provided links. E.g.
     - Getting all things: `v1.0/Things`
     - Getting a specific thing: `v1.0/Things(1)`
@@ -55,7 +55,6 @@ Additional information about the filter operations and encoding can be found at 
 
 1. **Greater than and smaller than**: Retrieve all observations with result greater than 40 and smaller than 41:
     - ```v1.0/Observations?$filter=result ge 40 and result le 41```
-    - What's the query for getting the Observations with `2<=id<5`?
 
 1. **Overlapping time frames**: The phenomenonTime and result of the first 1000 observations, ordered by phenomenonTime that overlap with the time frame from 2019-03-14 10:04:00 UTC to 2019-03-14 10:04:00 UTC (3 hours):
     - ```
