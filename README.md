@@ -29,7 +29,7 @@ Further possibilities (only recommended if you're familiar with that technology)
 The aim of this first exercise is to explore the available entities.
 1) Browse to: ``http://localhost:8080/FROST-Server/v1.0`` (or to the online available test instance). You will see one data collection for each entity of the data model. If available we recommend to use Firefox. For other browsers you might need to install an add-on to visualize JSON data.
 2) Add sample data to the server:
-    - On **Linux** you can use `curl` to do the requests: `curl -X POST -H "Content-Type: application/json" -d @demoEntities.json http://localhost:8080/FROST-Server/v1.0/Things`
+    - On **Linux** you can use `curl` to do the requests: `curl -X POST -H "Content-Type: application/json" -d @demoData/demoEntities1.json http://localhost:8080/FROST-Server/v1.0/Things`
     - For **Windows** we recommend to use [Postman](https://www.getpostman.com/):
         - Create a POST-request to `http://localhost:8080/FROST-Server/v1.0/Things`
         - Set the `Content-Type`-header to `application/json`
