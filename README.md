@@ -1,5 +1,11 @@
 # Management of Sensor Data with Open Standards
-Lab session for the ISCRAM tool talk: 'Management of Sensor Data with Open Standards'. In this session you'll learn how to use the [FROST-Server](https://github.com/FraunhoferIOSB/FROST-Server) as implementation of the SensorThings-API standard
+Lab session for the ISCRAM tool talk: ['Management of Sensor Data with Open Standards'](https://iscram2019.webs.upv.es/wp-content/uploads/2019/09/ISCRAM2019_Proceedings.pdf#page=1157). In this session you'll learn how to use the [FROST-Server](https://github.com/FraunhoferIOSB/FROST-Server) as implementation of the SensorThings-API standard.
+
+The corresponding Paper:
+
+`Hertweck, P., Hellmund, T., van der Schaaf, H., Moßgraber, J., & Blume, J. Management of Sensor Data with Open Standards.`
+
+is publicly available at [ISCRAM Library](https://iscram2019.webs.upv.es/wp-content/uploads/2019/09/ISCRAM2019_Proceedings.pdf#page=1157).
 
 ## Preparation
 There are several possibilities to run/access a FROST-Server for the lab session:
