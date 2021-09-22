@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you want to use this software, please cite it as below."
+authors:
+- family-names: "Hertweck"
+  given-names: "Philipp"
+  orcid: "https://orcid.org/0000-0002-1051-8052"
+- family-names: "Hellmund"
+  given-names: "Tobias"
+  orcid: "https://orcid.org/0000-0002-4932-9267"
+- family-names: "van der Schaaf"
+  given-names: "Hylke"
+- family-names: "Moßgraber"
+  given-names: "Jürgen"
+  orcid: "https://orcid.org/0000-0002-2614-4980"
+- family-names: "Blume"
+  given-names: "Jan"
+title: "Management of Sensor Data with Open Standards"
+version: 1
+date-released: 2019-09
+url: "https://iscram2019.webs.upv.es/wp-content/uploads/2019/09/ISCRAM2019_Proceedings.pdf#page=1157"
